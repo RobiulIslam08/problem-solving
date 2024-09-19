@@ -14,11 +14,18 @@
 // console.log(isPalindrome("Hello")); // false
 
 
+// const isPalindrome = (str)=>{
+// 	str = str.toLowerCase();
+// 	let reverseStr = str.split('')
+// 	return reverseStr;
+
+
+// }
+// console.log(isPalindrome('robi islam'))
+
 const isPalindrome = (str)=>{
-	str = str.toLowerCase();
-	let reverseStr = str.split('')
-	return reverseStr;
-
-
+	str = str.toLowerCase()
+	let reversedStr = str.split('')
+	return reversedStr
 }
-console.log(isPalindrome('robi islam'))
+console.log(isPalindrome('rahad'))
