@@ -1,5 +1,10 @@
-const countWords = (str)=>{
-	return str.split(' ').length
+// const countWords = (str)=>{
+// 	return str.split(' ').length
+
+// }
+// console.log(countWords('robi rahad'))
+const counLetter = (str) =>{
+	return str.split('').length
 
 }
-console.log(countWords('robi rahad'))
+console.log(counLetter('robi'))
