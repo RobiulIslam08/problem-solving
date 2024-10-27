@@ -1,12 +1,23 @@
-function countCharacter(str, char) {
+// function countCharacter(str, char) {
+// 	let count = 0;
+// 	for (let i = 0; i < str.length; i++) {
+// 	  if (str[i] === char) {
+// 		count++;
+// 	  }
+// 	}
+// 	return count;
+//   }
+  
+//   console.log(countCharacter("hello", "l")); // Output: 2
+  
+
+  const countCharacter = (str, char) => {
 	let count = 0;
-	for (let i = 0; i < str.length; i++) {
-	  if (str[i] === char) {
-		count++;
-	  }
+	for( let i = 0; i<str.length; i++){
+		if(str[i] === char){
+			count++
+		}
 	}
-	return count;
+	return count
   }
-  
-  console.log(countCharacter("hello", "l")); // Output: 2
-  
+  console.log(countCharacter("hello", "l"))
