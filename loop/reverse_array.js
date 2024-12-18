@@ -1,6 +1,10 @@
 const arr = [3,55,53,234,23,2]
 const reversed = [];
-for (let i = arr.length - 1; i >= 0; i--) {
-    reversed.push(arr[i]);
+// for (let i = arr.length - 1; i >= 0; i--) {
+//     reversed.push(arr[i]);
+// }
+// console.log(reversed);
+for(let i = arr.length - 1; i>= 0; i--){
+	reversed.push(arr[i])
 }
-console.log(reversed);
+console.log(reversed)
