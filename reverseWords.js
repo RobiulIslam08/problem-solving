@@ -3,3 +3,4 @@ function reverseWords(sentence) {
 }
 
 console.log(reverseWords("I love coding")); // Output: "coding love I"
+console.log(NaN == NaN)
